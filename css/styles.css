@@ -303,10 +303,15 @@ label {
     flex-direction: column;
 }
 
+.form__item {
+    position: relative;
+    bottom: -12px;
+}
+
 .form__close {
     position: relative;
     left: 40%;
-    bottom: 45px;
+    bottom: 30px;
     cursor: pointer;
 }
 
