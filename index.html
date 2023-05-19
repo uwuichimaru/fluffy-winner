@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card list</title>
+    <!-- [Подключение стилей] -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <nav class="navigate">
+            <ul class="navigate__list">
+                <li class="navigate__item">Свитшоты</li>
+                <li class="navigate__item">Футболки</li>
+                <li class="navigate__item">Брюки</li>
+            </ul>
+            <div class="switch__theme">
+                Switch theme
+            </div>
+        </nav>
+    </div>
+
+    <button class="back-to">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+        </svg>
+    </button>
+
+
+    <section class="category">
+
+        <div class="category__list">
+            <div class="category__item" id="sweatshirt">
+                <h2 class="category__title">Свитшоты</h2>
+
+                <div class="products">
+                    <div class="products__list">
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="category__item" id="t-shirt">
+                <h2 class="category__title">Футболки</h2>
+
+
+                <div class="products">
+                    <div class="products__list">
+                    </div>
+                </div>
+            </div>
+            <div class="category__item" id="trouser">
+                <h2 class="category__title">Брюки</h2>
+
+                <div class="products">
+                    <div class="products__list">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <form class="form">
+        <h3 class="form__title">Форма заказа</h3>
+        <div class="form__close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+        </div>
+        <h3>Выберите цвет:</h3>
+        <div class="form__radio">
+            <div class="form__item">
+                <input type="radio" id="green" name="contact" value="green" class="radio-btn">
+                <label for="green" class="green">Green</label>
+            </div>
+    
+            <div class="form__item">
+                <input type="radio" id="red" name="contact" value="red" class="radio-btn">
+                <label for="red" class="red">Red</label>
+            </div>
+    
+            <div class="form__item">
+                <input type="radio" id="black" name="contact" value="black" class="radio-btn">
+                <label for="black" class="black">Black</label>
+            </div>
+    
+            <div class="form__item">
+                <input type="radio" id="white" name="contact" value="white" class="radio-btn">
+                <label for="white" class="white">White</label>
+            </div>
+        </div>
+    
+        <h3>Ваши комментарии:</h3>
+        <textarea name="textarea" id="textarea" cols="30" rows="10" class="form__comment"></textarea>
+    
+        <div class="form__btn">
+            <button type="submit">Купить</button>
+        </div>
+        <div class="form__btn-red">
+            <button type="submit">Закрыть</button>
+        </div>
+    </form>
+
+    <div class="background-for-modal"></div>
+
+
+    <!-- Подключение js скриптов -->
+    <script src="scripts/Data.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
