@@ -180,7 +180,7 @@ const trousers = [
   {
     id: "2",
     image: "../images/trousers/2.png",
-    title: "Брюки oodji Lab",
+    title: "Брюки Oodji Lab",
     date: `${getRandomDate()}`,
   },
   {
@@ -199,42 +199,42 @@ const trousers = [
   {
     id: "5",
     image: "../images/trousers/5.png",
-    title: "Брюки Be Very",
+    title: "Брюки Power Engineer",
     date: `${getRandomDate()}`,
   },
 
   {
     id: "6",
     image: "../images/trousers/6.png",
-    title: "Брюки Be Very",
+    title: "Брюки Laid-back",
     date: `${getRandomDate()}`,
   },
 
   {
     id: "7",
     image: "../images/trousers/7.png",
-    title: "Брюки Be Very",
+    title: "Брюки Workout",
     date: `${getRandomDate()}`,
   },
 
   {
     id: "8",
     image: "../images/trousers/8.png",
-    title: "Брюки Be Very",
+    title: "Брюки Dynamic",
     date: `${getRandomDate()}`,
   },
 
   {
     id: "9",
     image: "../images/trousers/9.png",
-    title: "Брюки Be Very",
+    title: "Брюки Strong Black",
     date: `${getRandomDate()}`,
   },
 
   {
     id: "10",
     image: "../images/trousers/10.png",
-    title: "Брюки Be Very",
+    title: "Брюки Pseudo Style",
     date: `${getRandomDate()}`,
   },
 ];
